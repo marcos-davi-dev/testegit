@@ -1,0 +1,11 @@
+TAGS INICIAIS;
+
+<h1></h1> Usado para colocar umt exto com mais evidência, com maior enfase
+quando maior for o número depois do h menos será  aletra do titulo, se tornadno um subtítiulo
+
+
+<p></p> parágrado em um site;
+
+<a href='http://www.link.com/'></a> aqui é onde é colocado o link para o texto
+
+ 

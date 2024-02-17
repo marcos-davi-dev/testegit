@@ -1,0 +1,81 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    background-color: #000000   ;
+    color:#ffffff ;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5em;
+}
+
+.subtitulo {
+    background-color: #300000;
+    color:#ffffffBB ;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left; /*Joga os itens da lista para o aldo de forma a flutuar*/
+    font-size: 1.5em;
+}
+
+ul li a {
+    text-decoration: none; /* usado apra tirar o sublinhado dos links*/ 
+    padding: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+    color:rgb(66, 12, 21) ;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:none;
+    font-weight: 600;
+    line-height: 2em;
+    /*width: 1em;*/ /*assim coloco o texto totalmente na vertical*/
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5); /*Deslocamento horizontal, vertical e desfoque*/
+}
+
+#conteiner-table {
+    text-align: center;
+    width: 100%;
+}
+
+#salvacao {
+    font-size: 3em;
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;/*Retira as bordas duplas da tabela*/
+}
+
+table tr th {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+table .linha {
+    color: white;
+
+}
+
+
+.linha:nth-child(even){
+    background-color: #d16363;
+}
+
+.linha:nth-child(odd) {
+    background-color: rgb(43, 110, 110);
+}
+
+td:nth-child(even){
+    color: aquamarine;
+}
+

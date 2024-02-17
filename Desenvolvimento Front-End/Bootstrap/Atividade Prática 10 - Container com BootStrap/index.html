@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>BootStrap</title>
+    <style>
+      p{
+        text-align: start;
+      }
+    </style>
+</head>
+<body>
+
+<!--
+1. Crie uma página Web que inclua um cabeçalho, um corpo e um rodapé.
+2. No cabeçalho, adicione o nome da sua página web e um menu de navegação com pelo menos três itens.
+3. No corpo da página, adicione três seções diferentes usando containers do Bootstrap. Cada seção deve incluir um título e um parágrafo de texto.
+4. No rodapé, adicione um copyright com o ano atual.
+5. Aplique estilos à sua página usando classes do Bootstrap, como por exemplo as classes para cores de fundo e texto.
+6. Certifique-se de que sua página é responsiva e se adapta a diferentes tamanhos de tela.
+​-->
+    
+
+    <header class="container-fluid">
+        <h1 class="font-monospace text-center text-white bg-dark mb-0 fs-3"> (...BootStrap...) </h1>
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid">
+               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="font-monospace collapse navbar-collapse justify-content-end ms-auto" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link fs-6 " href="#">Início</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6 text-white bg-dark fw-bold" href="#">BootStrap</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-6" href="#">Contato</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="container-fluid">
+      <div class="row">
+         <section class=" container-fluid border col-md-6 fs-9 text-center">
+            <h1> Como instalar o BoothStrap ? </h1>
+            
+              <p> Existem duas formas de se utilizar a biblioteca do BootStrep, que são através da instalação da biblioteca usando o comando <strong> $npm install bootstrap@5.3.2 </strong> que é a versão
+                mais atual, do dia de hoje <strong> 01/02/2024 </strong>. </p>
+                
+                <p>  Outra forma de se utilizar é via CDN que é um forma de utilziar todo arsenal do bootstrep sem precisar implantálo em seu servidor
+                  deixando ele mais leve.Para se utilizar basta colar dois links, um no <strong> < head > </strong> e outro no <strong> < body > </strong>.
+                  Na tag <strong> < head > </strong> utilizamos um link:</p>
+
+                <p class="border border-black">< link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+                  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"></p>
+
+                  <p>E na tag <strong> < Body > </strong> bem no final colocamos o script :</p>
+
+                <p class="border border-black"> < script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+                  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script></p>
+
+                <p> Depois de se aplicar os links em todas as tags podemos finalmente utilizar o BootStrap através da class, que são utilizadas 
+                  para estilizar de forma mais pratica o nosso site.</p>
+
+          </section>
+          <section class="col-md-6 border container-fluid text-center">
+            <h1> Seção 2</h1>
+            <p></p>
+          </section>
+        </div>
+      </div>
+
+      <section class="col container-fluid border text-center">
+        <h1>Seção 3</h1>
+        <p></p>
+      </section>
+      
+
+
+    <footer class="text-center font-monospace"> <strong> Copyright 2024 </strong></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

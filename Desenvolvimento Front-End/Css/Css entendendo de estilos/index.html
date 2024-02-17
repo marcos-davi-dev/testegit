@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> 
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" >
+    <title> Tuturismo </title>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul><!--Lista não ordenada-->
+                <li><a href=""> Pacotes</a></li>
+                <li><a href=""> Taxas</a></li>
+                <li><a href=""> Contatos</a></li>
+            </ul>
+        </nav>
+        <br><br>
+       <h1>Venha realizar a viajem dos Seus sonhos</h1>
+    </header>
+    <section id="pacotes">
+        <h2>Viajar não é luxo, é essencial</h2>
+        <p>
+            Acreditar que você pode viajar é com a gente você só precisa ir.
+            Venha conhecer lugares exóticos no interiro do Rio de Janeiro<br>
+            Lugares bonitos e com boas pessoas, vejamos alguns exemplos a seguir:<br>
+        </p>
+        <div class="figuras">
+        <figure>
+            <img src="/Desenvolvimento Front-End/Html/mídia com HTML/img/sao_goncalo.jpg" alt="Igreja São gonçalo" width="400" height="300">
+            <figcaption>São Gonçalo do Amarante</figcaption>
+        </figure>
+        <figure>
+            <img src="/Desenvolvimento Front-End/Html/mídia com HTML/img/niteroi.jpg" alt="Niteroi lugar lindo" width="400" height="300">
+            <figcaption>Niteroi vista de cima</figcaption>
+        </figure>
+        <figure>
+            <img src="/Desenvolvimento Front-End/Html/mídia com HTML/img/marica.jpg" alt="Maricá vista de cima" width="400" height="300">
+            <figcaption>Maricá região oceânica</figcaption>
+        </figure>
+        </div>
+    
+        <br><hr>
+        <a href="https://www.decolar.com/">Decolar.com</a>
+        <hr>
+    </section>
+
+    <section>
+
+        <div class="videos">
+        <video width="450" height="225" controls>
+            <source src="/Desenvolvimento Front-End/Html/mídia com HTML/video/niretoi.mp4" type="video/mp4">
+            Mão foi possivel exibir os eu vídeo.
+        </video>
+        </div>
+
+    </section>
+    <br><br><br><br>
+    <section>
+        <h1>TaxAS E serviços</h1>
+        <p>Veja as nossas taxas e serviços</p>
+        <table border>
+            <caption>Descrição dos serviçoes e respectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Reserva de Hotel</td>
+                    <td> R$ 150,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de passagem</td>
+                    <td>R$ 100,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel Carro</td>
+                    <td>R$ 50,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Orçamento</h2>
+        <form method="get" action="">
+            <fieldset>
+            <legend>Dados da Viajem</legend>
+
+            <label>Nome</label><br>
+            <input type="text" name="name" id="fname"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email" id="femail"><br><br>
+
+            <label>Data de Ida</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label>Data de Volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label> Quantidade de Pessoas </label><br>
+            <input type="number" name="quantidadePessoas"><br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual serviço deseja contratar? </legend><br>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+                </label>
+
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="Hospedagem"> Reserva de Hospedagem
+                </label>
+
+                <label>
+                    <br><input type="checkbox" name="veiculo" value="Veículo"> Reserva de Veículos
+                </label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <Label>
+                    <br><input type="radio" name="formaDePagamento" id="" value="Cartão de Crédito"> Cartão de Crédito
+                    </Label>
+                <label>
+                    <br><input type="radio" name="formaDePagamento" id="" value="Boleto"> Boleto
+
+                </Label>
+                <label>
+                    <br><input type="radio" name="formaDePagamento" id="" value="Pix"> Pix
+
+                </Label>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha um Prazo de Pagamento</legend>
+                <select id="" name="prazoPagamento">
+                    <option value="aVista">A vista</option>
+                    <option value="5x sem Juros" selected>5x sem Juros</option>
+                    <option value="10 com Juros">10x com Juros</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentários</legend>
+            <br><br><label>Código de Acesso</label><br>
+            <input type="password" name="senha"><br><br>
+                <!--required pattern="[A-Z]{2} [0-9]{3}"
+                title="Utiliza 2 letras e 3 numeros nessa ordem"/><br>-->
+
+            <label>Comentário</label><br>
+            <textarea rows="5" name="comentario" ></textarea><br>
+            
+            <button>Enviar</button>
+            <!--<input type="submit" value="submit">-->
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por @Marcos_Davi </p>
+
+        </footer>
+     
+</body>
+</html>

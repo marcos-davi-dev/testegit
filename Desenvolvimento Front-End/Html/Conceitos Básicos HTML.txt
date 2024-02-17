@@ -1,0 +1,32 @@
+> O que é Html?
+
+Acrônico e Hiper Text Markup Lenguage, em tradução direta é linguagem 
+de marcação de hipertexto;
+
+    Criada pelo britânico Tim Berners-Lee em 1991 e é mantida pelo
+    consórcio W3C (World Wide Web COnsortium). Um grupod e pessoas
+    que se juntam para manter a linguagem ativa, através de um trabalho em conjunto
+
+Html consiste a estrutura básica de um site e tem uma serie de Elementos
+que informam ao navegador como exibir um conteúdo;
+
+
+> Estrutura basica
+
+Estrutura básica de tags que definem o corpo do Html; Quase toda as 
+tags precisam ser abertas e fechadas;
+
+    <!DOCTYPe html>
+    <html>
+    <head>
+    <title> Name title </title>
+    </head>
+    <body>
+        conteúdo da página
+    </body>
+    </html>
+
+
+> Elementos básicos
+
+> Semântica do HTML5
