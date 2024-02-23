@@ -6,3 +6,5 @@ Primeiro teste é adicionando novas linhas ao meu readme, tentando mudar as cois
 Primerio criei um branch para poder criar  a priemira versão do meu arquivo.
 Vamos tentar dessa vez 
 ver 0.0.1
+
+Agora fiz uma alteração e está n modo remoto , quero ver como faço para pushar por local
