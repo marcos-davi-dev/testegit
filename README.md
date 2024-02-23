@@ -8,3 +8,5 @@ Vamos tentar dessa vez
 ver 0.0.1
 
 Agora fiz uma alteração e está n modo remoto , quero ver como faço para pushar por local
+ 
+ Tudo pronto, podemos mandar para a ver~sao final
